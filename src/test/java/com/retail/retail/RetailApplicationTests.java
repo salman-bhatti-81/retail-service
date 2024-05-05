@@ -2,15 +2,13 @@ package com.retail.retail;
 
 import com.retail.retail.domain.Item;
 import com.retail.retail.domain.User;
-import com.retail.retail.service.RetailService;
+import com.retail.retail.usecase.service.RetailService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
 
-import static com.retail.retail.service.UserType.*;
+import static com.retail.retail.usecase.service.UserType.*;
 import static org.junit.Assert.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.CustomAutowireConfigurer;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;

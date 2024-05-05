@@ -1,6 +1,6 @@
 package com.retail.retail.domain;
 
-import com.retail.retail.service.strategy.RetailStrategy;
+import com.retail.retail.usecase.service.strategy.RetailStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
